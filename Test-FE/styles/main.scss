@@ -1,0 +1,32 @@
+﻿@import "variables.scss";
+
+body {
+    padding: 50px;
+
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        color: $listItemColor;
+        font-size: $listItemFontSize;
+        font-style: italic;
+    }
+
+    li:hover {
+        cursor: pointer;
+    }
+
+    input {
+        width: 160px;
+        height: 30px;
+    }
+
+    button {
+        width: 80px;
+        height: 40px;
+        border-radius: 5px;
+        border-width: 0px;
+    }
+}

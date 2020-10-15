@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <script type="text/javascript" src="TagHandler.js"></script>
+</head>
+<body>
+    <ul id="tags"></ul>
+    <div>
+        <input id="textbox" type="text">
+        <button onclick="addTag()">Add tag</button>
+    </div>
+    
+    <script type="text/javascript">
+        window.onhashchange = locationHashChanged;
+        window.onload = onPageLoad;
+    </script>
+</body>
+</html>

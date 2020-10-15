@@ -1,0 +1,19 @@
+﻿body {
+  padding: 50px; }
+  body ul {
+    padding: 0;
+    list-style: none; }
+  body li {
+    color: #4a4a4a;
+    font-size: 26px;
+    font-style: italic; }
+  body li:hover {
+    cursor: pointer; }
+  body input {
+    width: 160px;
+    height: 30px; }
+  body button {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0px; }
